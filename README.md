@@ -22,4 +22,4 @@ cd <repository-directory>
 pip install -r requirements.txt
 
 ## Screenshot
-![img1](https://github.com/user-attachments/assets/f3ab5ce1-445b-4e54-91f1-d1b8de9386a7)
+

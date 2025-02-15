@@ -1,0 +1,24 @@
+# Anleitung zur Zusammenfassung von YouTube-Transkripten
+
+Diese Anleitung erklärt, wie du YouTube-Transkripte extrahierst, speicherst und mit Hilfe eines LLM zusammenfassen kannst.
+
+## Schritte:
+
+- **Transkripte von YouTube extrahieren:**
+  - Suche auf YouTube nach den gewünschten Videos und kopiere die URL-Links.
+  - Füge die URL-Links in die vorgesehenen Felder ein (bis zu 5 Links sind möglich).
+  - Drücke auf **"holen"**, um das Transkript im Fenster anzuzeigen.
+  - Klicke auf **"speichern"**, um das Transkript als Textdatei zu sichern.
+
+- **Zusammenfassung mit dem LLM:**
+  - Öffne dein LLM.
+  - Gib folgenden Prompt ein (als Beispiel):
+
+    > Du erhältst eine Textdatei, die mehrere Transkripte von YouTube-Videos enthält. Jedes Transkript ist durch eine Leerzeile getrennt. Deine Aufgabe ist es, die Transkripte in Deutsch zusammenzufassen und zu strukturieren, sodass zwischen ihnen ein deutlicher Umbruch erkennbar ist. Füge zwischen den einzelnen Transkripten eine klare Trennlinie ein, z.B. eine Linie mit `---` oder `=====`. Stelle sicher, dass jedes Transkript gut lesbar bleibt und die Trennlinien eindeutig die Grenzen zwischen den Transkripten markieren.
+
+  - Lade die zuvor gespeicherte Textdatei hoch.
+  - Sende die Datei an das LLM.
+
+## Hinweise:
+- Achte darauf, dass in der Textdatei alle Transkripte durch eine Leerzeile getrennt sind, damit das LLM die einzelnen Abschnitte korrekt erkennen kann.
+- Verwende deutlich sichtbare Trennlinien, um die einzelnen Transkripte klar voneinander abzugrenzen.

@@ -12,6 +12,14 @@ Dies ist ein kleines Helfertool, erstellt mit Hilfe eines Large Language Models 
 - **Bugs, Fehler und Optimierung**: Jeder muss für sich entscheiden, ob es wert ist, noch mehr Zeit aufzuwenden.
 - **Sinnvoll und nützlich**: Auch das muss jeder für sich entscheiden.
 
+## 📋 Beschreibung
+Dieses Tool ermöglicht das gleichzeitige Extrahieren von Transkripten aus bis zu fünf YouTube-Videos. Die gesammelten Transkripte können als Textdatei gespeichert und anschließend mit einem LLM (z. B. ChatGPT) weiterverarbeitet werden, um strukturierte Zusammenfassungen zu erstellen.
+
+## 🚀 Features
+- Extrahiert Transkripte aus YouTube-Links (bis zu 5 gleichzeitig).
+- Speichert Transkripte als `.txt`-Datei.
+- Integrierte Hilfefunktion mit Anleitung zur LLM-Nachbearbeitung.
+
 ## Installation
 
 Um dieses Tool zu verwenden, klonen Sie das Repository und installieren Sie die benötigten Abhängigkeiten:
